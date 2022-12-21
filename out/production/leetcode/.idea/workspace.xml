@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b30df5c-fa00-42cd-9543-751e0e4d25be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.java" afterDir="false" />
     </list>
@@ -24,7 +19,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,16 +45,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/weiyu/Desktop/leetcode&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.41264367&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -70,16 +59,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,8 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test.Test" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -116,26 +97,7 @@
       <workItem from="1662742460671" duration="1126000" />
       <workItem from="1662780757458" duration="3987000" />
       <workItem from="1662827042130" duration="1000" />
-      <workItem from="1662956290791" duration="14424000" />
-      <workItem from="1663082816172" duration="2005000" />
-      <workItem from="1663180840018" duration="5273000" />
-      <workItem from="1663256128967" duration="7533000" />
-      <workItem from="1663356930150" duration="619000" />
-      <workItem from="1663701520115" duration="5900000" />
-      <workItem from="1663874539423" duration="3516000" />
-      <workItem from="1664238381764" duration="2322000" />
-      <workItem from="1664305200892" duration="1214000" />
-      <workItem from="1665442469989" duration="2988000" />
-      <workItem from="1668109123087" duration="4566000" />
-      <workItem from="1668143078352" duration="6622000" />
-      <workItem from="1668227040115" duration="2615000" />
-      <workItem from="1668287108996" duration="2841000" />
-      <workItem from="1668542918676" duration="1562000" />
-      <workItem from="1669583666119" duration="2573000" />
-      <workItem from="1670815853667" duration="78000" />
-      <workItem from="1670870557638" duration="813000" />
-      <workItem from="1671076594781" duration="4067000" />
-      <workItem from="1671582633000" duration="4487000" />
+      <workItem from="1662956290791" duration="7423000" />
     </task>
     <servers />
   </component>
@@ -157,21 +119,11 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Test/Test.java</url>
+          <url>file://$PROJECT_DIR$/Test.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/src/Main.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="tail" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
