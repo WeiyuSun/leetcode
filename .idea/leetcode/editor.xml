@@ -47,6 +47,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1489]Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[1489]Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1489" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1489]Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree.java" />
+              <option name="titleSlug" value="find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[151]Reverse Words in a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[151]Reverse Words in a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com151" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[151]Reverse Words in a String.java" />
+              <option name="titleSlug" value="reverse-words-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1592]Rearrange Spaces Between Words.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[1592]Rearrange Spaces Between Words.md" />
+              <option name="frontendQuestionId" value="leetcode.com1592" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1592]Rearrange Spaces Between Words.java" />
+              <option name="titleSlug" value="rearrange-spaces-between-words" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[160]Intersection of Two Linked Lists.java">
           <value>
             <LeetcodeEditor>
@@ -77,6 +110,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[169]Majority Element.java" />
               <option name="titleSlug" value="majority-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[172]Factorial Trailing Zeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[172]Factorial Trailing Zeroes.md" />
+              <option name="frontendQuestionId" value="leetcode.com172" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[172]Factorial Trailing Zeroes.java" />
+              <option name="titleSlug" value="factorial-trailing-zeroes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -146,6 +190,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2109]Adding Spaces to a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[2109]Adding Spaces to a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com2109" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[2109]Adding Spaces to a String.java" />
+              <option name="titleSlug" value="adding-spaces-to-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[215]Kth Largest Element in an Array.java">
           <value>
             <LeetcodeEditor>
@@ -187,6 +242,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[268]Missing Number.java" />
               <option name="titleSlug" value="missing-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[27]Remove Element.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[27]Remove Element.md" />
+              <option name="frontendQuestionId" value="leetcode.com27" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[27]Remove Element.java" />
+              <option name="titleSlug" value="remove-element" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -319,6 +385,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[881]Boats to Save People.java" />
               <option name="titleSlug" value="boats-to-save-people" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[886]Possible Bipartition.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[886]Possible Bipartition.md" />
+              <option name="frontendQuestionId" value="leetcode.com886" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[886]Possible Bipartition.java" />
+              <option name="titleSlug" value="possible-bipartition" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[901]Online Stock Span.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[901]Online Stock Span.md" />
+              <option name="frontendQuestionId" value="leetcode.com901" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[901]Online Stock Span.java" />
+              <option name="titleSlug" value="online-stock-span" />
             </LeetcodeEditor>
           </value>
         </entry>
