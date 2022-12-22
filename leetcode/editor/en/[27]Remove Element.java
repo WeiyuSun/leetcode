@@ -78,7 +78,7 @@ class Solution {
         int n = nums.length;
 
         slow = 0;
-        for(fast =  0; fast < n; fast++){
+        for(fast = 0; fast < n; fast++){
             if(nums[fast] != val){
                 nums[slow] = nums[fast];
                 slow++;
