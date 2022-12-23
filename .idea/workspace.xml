@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b30df5c-fa00-42cd-9543-751e0e4d25be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/en/[151]Reverse Words in a String.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/en/[151]Reverse Words in a String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/en/[27]Remove Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/en/[27]Remove Element.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +131,7 @@
       <workItem from="1670870557638" duration="813000" />
       <workItem from="1671076594781" duration="4067000" />
       <workItem from="1671582633000" duration="4487000" />
-      <workItem from="1671661180850" duration="8027000" />
+      <workItem from="1671661180850" duration="16269000" />
     </task>
     <servers />
   </component>
@@ -159,8 +159,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/src/Main.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="19" />
+          <line>51</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

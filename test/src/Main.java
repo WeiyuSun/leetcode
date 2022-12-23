@@ -22,20 +22,49 @@ public class Main {
     //    测试用例:["MyLinkedList","addAtHead","addAtIndex","addAtTail","addAtHead","addAtIndex","addAtTail","addAtTail","addAtIndex","deleteAtIndex","deleteAtIndex","addAtTail"]
 //            [[],              [0],        [1,4],      [8],            [5],        [4,3],      [0],        [5],        [6,3],      [7],            [5],            [4]]
     public static void main(String[] args) {
-        String noSpace = cleanSpace(" this  is    a    good  example   ");
-        char[] reversed = reverseString(noSpace);
-        System.out.println(new String(reversed));
-        int n = reversed.length;
-        int start = 0;
-        int end;
-        for (int i = 0; i < n; i++) {
-            if (reversed[i] == ' ' || i == n - 1) {
-                reverseWords(reversed, start, (i == n - 1) ? n - 1 : i - 1);
-                start = i + 1;
+        String haystack = "aabaaabaaac";
+        String needle = "aabaaac";
+        int[] next = getNext(needle);
+
+        int j = 0;
+        int i = 0;
+        while (i < haystack.length()){
+
+            if(haystack.charAt(i) == needle.charAt(j)){
+                if(j == needle.length() - 1){
+                    System.out.println("match");
+                    return;
+                }
+                i++;
+                j++;
+            }else {
+                if(j == 0){
+                    i++;
+                } else {
+                    j = next[j-1];
+                }
+            }
+        }
+        System.out.println(Arrays.toString(next));
+    }
+
+    static int[] getNext( String s){
+        int n = s.length();
+        int[] next = new int[n];
+        Arrays.fill(next, -1);
+        int j = 0;
+        next[0] = 0;
+        for(int i = 1; i < n; i++){
+            if(s.charAt(i) == s.charAt(j)){
+                next[i] = j + 1;
+                j++;
+            }else {
+
             }
         }
 
-        System.out.println(new String(reversed));
+
+        return next;
     }
 
 
