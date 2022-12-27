@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1047]Remove All Adjacent Duplicates In String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[1047]Remove All Adjacent Duplicates In String.md" />
+              <option name="frontendQuestionId" value="leetcode.com1047" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1047]Remove All Adjacent Duplicates In String.java" />
+              <option name="titleSlug" value="remove-all-adjacent-duplicates-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[141]Linked List Cycle.java">
           <value>
             <LeetcodeEditor>
