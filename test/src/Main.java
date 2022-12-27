@@ -22,47 +22,53 @@ public class Main {
     //    测试用例:["MyLinkedList","addAtHead","addAtIndex","addAtTail","addAtHead","addAtIndex","addAtTail","addAtTail","addAtIndex","deleteAtIndex","deleteAtIndex","addAtTail"]
 //            [[],              [0],        [1,4],      [8],            [5],        [4,3],      [0],        [5],        [6,3],      [7],            [5],            [4]]
     public static void main(String[] args) {
-        String haystack = "aabaaabaaac";
-        String needle = "aabaaac";
-        int[] next = getNext(needle);
-
-        int j = 0;
-        int i = 0;
-        while (i < haystack.length()){
-
-            if(haystack.charAt(i) == needle.charAt(j)){
-                if(j == needle.length() - 1){
-                    System.out.println("match");
-                    return;
-                }
-                i++;
-                j++;
-            }else {
-                if(j == 0){
-                    i++;
-                } else {
-                    j = next[j-1];
-                }
-            }
-        }
-        System.out.println(Arrays.toString(next));
+        System.out.println(isValid(")"));
     }
 
-    static int[] getNext( String s){
-        int n = s.length();
-        int[] next = new int[n];
-        Arrays.fill(next, -1);
-        int j = 0;
-        next[0] = 0;
-        for(int i = 1; i < n; i++){
-            if(s.charAt(i) == s.charAt(j)){
-                next[i] = j + 1;
-                j++;
-            }else {
+    public static boolean isValid(String s) {
+        char[] stack = new char[s.length()];
+        int currIndex = 0;
+        for (int i = 0; i < s.length(); i++) {
 
+            char curr = s.charAt(i);
+
+            if (curr == '(' || curr == '[' || curr == '{') {
+                stack[currIndex] = curr;
+                currIndex++;
+            } else {
+                if(currIndex <= 0)
+                    return false;
+
+                if (curr == ')' && stack[currIndex-1] != '(')
+                    return false;
+                else if (curr == ']' && stack[currIndex-1] != '[')
+                    return false;
+                else if (curr == '}' && stack[currIndex-1] != '{')
+                    return false;
+
+                currIndex--;
             }
+
+
         }
 
+        return currIndex == 0;
+    }
+
+    private static int[] getNext(String s){
+        int n = s.length();
+        int[] next = new int[n];
+        int j = 0;
+        next[0] = 0;
+        for(int i = 1; i < s.length(); i++) {
+            while (j > 0 && s.charAt(i) != s.charAt(j)) {
+                j = next[j - 1];
+            }
+            if (s.charAt(i) == s.charAt(j)) {
+                j++;
+            }
+            next[i] = j;
+        }
 
         return next;
     }
