@@ -1,4 +1,4 @@
-## Backtrace
+``## Backtrace
 
     if goal reached
 	    add sol to list
@@ -9,3 +9,5 @@
 			make a choice
 			backtrace
 			undo choice
+
+## DP
